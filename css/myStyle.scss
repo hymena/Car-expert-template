@@ -1,0 +1,348 @@
+@font-face {
+
+  font-family: 'Font Awesome';
+
+  src: url('../fonts/fa-solid-900.woff') format('woff'),
+
+  url('../fonts/fa-solid-900.woff2') format('woff2');
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
+$fontAwesome:'Font Awesome';
+
+.map-popup-location-category.gym-cat:after  {
+  content: "\f508";
+}
+.listing-item-grid .bg, .geodir-category-img-wrap img, .gallery-item .middle img {
+  height: 300px;
+}
+.list-single-main-item-title.gallery{
+  margin-bottom: 0;
+}
+
+.swiper-container.gallery{
+  height: 400px;
+}
+
+.dashboard-header-avatar img {
+  object-fit: cover;
+}
+.review-comments-avatar img{
+  object-fit: cover;
+}
+
+.header-user-name span img{
+  object-fit: cover;
+}
+.booking-list-message-avatar img{
+  object-fit: contain;
+}
+section.hero-section {
+  .bg{
+    background-size: cover;
+  }
+}
+
+.listing-avatar img{
+  object-fit: contain;
+}
+.white-bg{
+  background: white;
+  border-radius: 10px;
+}
+.footer-logo  {
+  width: 100px;
+}
+.footer-logo img{
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.logo-holder{
+  margin-top: 7px;
+  top: 20px;
+}
+.logo-holder img{
+  object-fit: cover;
+  border-radius: 5px;
+  vertical-align:center;
+}
+.chat-message .dashboard-message-avatar, .chat-message .dashboard-message-avatar img{
+  object-fit: cover;
+}
+.fuzone.messageArea{
+    margin-top: 0;
+}
+
+.dashboard-message-avatar img {
+  object-fit: cover;
+}
+
+.stChat{
+  width: 30%;
+  height: 70px;
+  background:#4DB7FE;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  a{
+    color: white;
+  }
+  .start-chat{
+    margin: 15px;
+    color: white;
+    h3::after{
+      font-family: "Font Awesome\ 5 Pro" ;
+      content: "\f067";
+      display: inline-block;
+      padding-left: 20px;
+      cursor: pointer;
+    }
+  }
+  &:hover {
+    background: #f9f9f9;
+    border: 1px solid #4DB7FE;cursor: pointer;
+    .start-chat a{
+      color:#4DB7FE ;
+    }
+  }
+}
+
+.col-sm-4.ch{
+  height: 520px;
+}
+
+
+.booking-list-contr.comment{
+  top: 60%;
+  height: 65px;
+}
+
+.chat-contacts.fl-wrap{
+  overflow: auto;
+  height: 520px;
+}
+
+.chk-out{
+  position: relative;
+  top:20px;
+  left: 20px;
+}
+
+#expCity{
+  margin-top: 50px;
+}
+.main-header{
+  &.dsh-header{
+    .header-user-menu{
+      &:after{
+        content: none;
+      }
+    }
+    &:before {
+      width: 240px;}
+    &.Admin{
+      &:before{width: 380px;}
+      .header-user-menu{
+        &:after{
+          content: none;
+        }
+      }
+    }
+    }
+  &:before{
+    width: 180px;
+  }
+  .show-reg-form{
+    &:before{
+      content: none;
+    }
+  }
+}
+
+.dashboard-header.fl-wrap.usr{
+  height: 70px;
+}
+#choose-us{
+  font-size: 24px;
+  font-weight: 500;
+  strong{
+    color: #4DB7FE;
+  }
+}
+
+.login-column_header img{
+  height: auto;
+}
+
+.row{
+  &.cookie{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-self: center;
+    justify-content: center;
+    .text{
+      width: auto;
+      margin: 40px 250px;
+      .cookie-head{
+        font-size: 24px;
+        font-weight: 350;
+        color: #2e3f6e;
+        padding: 20px;
+      }
+      p{
+        text-align: left;
+        color: #878C9F;
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 10px;
+      }
+      strong{
+        font-weight: 600;
+        color: #566985;
+        font-family: 'Nunito', sans-serif;
+        font-size: larger;
+      }
+      a{
+        color: #007bff;
+        &:hover{
+          color:#0b1cff ;
+        }
+      }
+    }
+  }
+}
+
+.sub-footer{
+  padding-bottom: 40px;
+}
+section.parallax-section.tariff{
+  padding-top: 200px;
+  .op7{
+    opacity: 0!important;
+  }
+}
+
+.listing_carditem{
+  img{
+    object-fit: cover;
+  }
+}
+
+.testi-avatar{
+  img{
+    object-fit: cover;
+  }
+}
+@media (min-width: 992px)  {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+    float: left;
+  }
+}
+@media (min-width: 768px){
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{
+    float: left;
+  }
+}
+@media screen and (max-width: 768px){
+  .stChat{
+    margin:10px 30px;
+    float: left;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 425px){
+  .stChat{
+    margin-left: 20px;
+    float: left;
+    width: 87%;
+  }
+}
+@media screen and (max-width: 375px){
+  .stChat{
+    margin:10px 20px;
+    float: left;
+    width: 87%;
+  }
+}
+
+@media screen and (max-width: 651px){
+  .logo-holder{
+    margin-top: 9px;
+  }
+}
+
+@media screen and (max-width: 2560px){
+  .client-item img{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1440px){
+  .client-item img{
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px){
+  .client-item img{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 425px){
+  .client-item img{
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1024px){
+  .row.cookie .text{
+    margin: 20px 125px;
+  }
+}
+@media screen and (max-width: 768px){
+  .row.cookie .text{
+    margin: 20px 65px;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .row.cookie .text{
+    margin: 10px 32px;
+  }
+}
+@media screen and (max-width: 320px){
+  .row.cookie .text{
+    margin: 5px 16px;
+    a{
+      word-break: break-word;
+    }
+  }
+}
+
+@media screen and (max-width: 1071px) {
+  .main-header{
+    background: #3d528b;
+  }
+}
+@media screen and (max-width: 425px){
+  .header-user-name{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .chat-contacts-item .chat-contacts-item-text span{
+    display: none;
+  }
+}
+
+@media screen  and (max-width: 768px){
+  .main-search-input-tabs{
+    display: none;
+  }
+}
